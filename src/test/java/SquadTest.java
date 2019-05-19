@@ -1,7 +1,7 @@
 import org.junit.After;
 
 import org.junit.*;
-import org.junit.Assert.*;
+import static org.junit.Assert.*;
 
 public class SquadTest {
 

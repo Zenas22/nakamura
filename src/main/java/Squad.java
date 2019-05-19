@@ -28,5 +28,14 @@ public class Squad {
         return mId;
     }
 
+//    public static void
+
+    public Squad(String squadName, int size, String cause){
+        mSquadName = squadName;
+        mSize = size;
+        mCause = cause;
+        squads.add(this);
+        mId = squads.size();
+    }
 
 }
