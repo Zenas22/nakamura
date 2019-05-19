@@ -47,7 +47,7 @@ public class App {
             Hero newHero = new Hero(jina,miaka,strength,weakness);
             heroes.add(newHero);
 
-            model.put("template", "template/successful.vtl");
+            model.put("template", "templates/successful.vtl");
             return new ModelAndView(model, layout);
         }), new VelocityTemplateEngine());
 
