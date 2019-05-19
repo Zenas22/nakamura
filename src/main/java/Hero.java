@@ -37,10 +37,6 @@ public class Hero {
         heroes.clear();
     }
 
-    public static Hero find(int id) {
-        return heroes.get(id - 1);
-    }
-
     public Hero(String jina, int miaka, String strength, String weakness) {
         mJina = jina;
         mMiaka = miaka;
@@ -48,5 +44,9 @@ public class Hero {
         mWeakness = weakness;
         heroes.add(this);
         mId = heroes.size();
+    }
+
+    public static Hero find(int id) {
+        return heroes.get(id - 1);
     }
 }
