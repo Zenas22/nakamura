@@ -15,7 +15,7 @@ public class App {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", index);
             return new ModelAndView(model, layout);
-        }, new VelocityTemplateEngine()));
+        }, new VelocityTemplateEngine());
 
     }
 }
