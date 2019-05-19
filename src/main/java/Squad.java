@@ -28,7 +28,9 @@ public class Squad {
         return mId;
     }
 
-//    public static void
+    public static void clear() {
+        squads.clear();
+    }
 
     public Squad(String squadName, int size, String cause){
         mSquadName = squadName;

@@ -28,4 +28,19 @@ public class SquadTest {
         Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
         assertEquals("Fight the titans", testSquad.getmCause());
     }
+
+    @Test
+    public void getSquads_returnsAllSquads_true(){
+        Squad oneSquad = new Squad("Olympus", 5, "Fight the titans");
+        Squad twoSquad = new Squad("Suicide Squad", 3, "Badass");
+        assertEquals(true, Squad.getSquads().contains(oneSquad));
+        assertEquals(true, Squad.getSquads().contains(twoSquad));
+    }
+
+    @Test
+    public void clear_emptiesSquad_0() {
+        Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
+        Squad.clear();
+        assertEquals(0, Squad.getSquads().size());
+    }
 }
