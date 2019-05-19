@@ -43,4 +43,19 @@ public class SquadTest {
         Squad.clear();
         assertEquals(0, Squad.getSquads().size());
     }
+
+    @Test
+    public void Squad_getmId_returns1(){
+        Squad.clear();
+        Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
+        assertEquals(1, testSquad.getmId());
+    }
+
+    @Test
+    public void find_returnsSquadWithSameId_twoSquad() {
+        Squad.clear();
+        Squad oneSquad = new Squad("Olympus", 5, "Fight the titans");
+        Squad twoSquad = new Squad("Suicide Squad", 3, "Badass");
+        assertEquals(twoSquad, Squad.find(twoSquad.getmId()));
+    }
 }

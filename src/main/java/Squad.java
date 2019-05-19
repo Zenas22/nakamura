@@ -32,6 +32,10 @@ public class Squad {
         squads.clear();
     }
 
+    public static Squad find(int id){
+        return squads.get(id-1);
+    }
+
     public Squad(String squadName, int size, String cause){
         mSquadName = squadName;
         mSize = size;
