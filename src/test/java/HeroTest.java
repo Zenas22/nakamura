@@ -1,4 +1,5 @@
 import org.junit.*;
+import org.junit.After;
 import static org.junit.Assert.*;
 
 public class HeroTest {
@@ -35,8 +36,26 @@ public class HeroTest {
 
     @Test
     public void Hero_heroId_retrievesTheId() {
-//        Hero.clear();
+        Hero.clear();
         Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
         assertEquals(1, testHero.getmId());
+    }
+
+    @Test
+    public void Hero_clear_0() {
+        Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
+        Hero.clear();
+        assertEquals(0, testHero.getHeroes().size());
+    }
+
+    @Test
+    public void Hero_getHeroes_true() {
+        Hero.clear();
+        Hero oneHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
+        Hero twoHero = new Hero("Hades", 29, "God of The Underworld", "Zeus");
+        Hero threeHero = new Hero("Poseidon", 25, "God of the Seas", "Shy");
+        assertEquals(true, Hero.getHeroes().contains(oneHero));
+        assertEquals(true, Hero.getHeroes().contains(twoHero));
+        assertEquals(true, Hero.getHeroes().contains(threeHero));
     }
 }

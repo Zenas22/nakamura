@@ -33,6 +33,14 @@ public class Hero {
         return heroes;
     }
 
+    public static void clear() {
+        heroes.clear();
+    }
+
+    public static Hero find(int id) {
+        return heroes.get(id - 1);
+    }
+
     public Hero(String jina, int miaka, String strength, String weakness) {
         mJina = jina;
         mMiaka = miaka;

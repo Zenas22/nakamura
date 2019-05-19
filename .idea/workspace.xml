@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="692182d5-c97a-4b96-982d-93d4f1833f29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeroTest.java" afterDir="false" />
     </list>
@@ -42,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="365">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#255#261#0" expanded="true" />
@@ -59,6 +58,8 @@
                 <element signature="e#571#572#0" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HeroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="780">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/main/java/VelocityTemplateEngine.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HeroTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hero.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HeroTest.java" />
       </list>
     </option>
   </component>
@@ -190,7 +191,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.HeroTest">
+    <configuration name="HeroTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;HeroTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HeroTest.Hero_clear_0" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;HeroTest.Hero_clear_0&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HeroTest.Hero_heroId_retrievesTheId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;HeroTest.Hero_heroId_retrievesTheId&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="HeroTest.Hero_instantiates_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,6 +274,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HeroTest" />
+        <item itemvalue="Gradle.HeroTest.Hero_clear_0" />
+        <item itemvalue="Gradle.HeroTest.Hero_heroId_retrievesTheId" />
         <item itemvalue="Gradle.HeroTest.Hero_instantiates_true" />
       </list>
     </recent_temporary>
@@ -231,17 +295,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 38m 02s.xml">
-      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 40m 06s.xml">
-      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 44m 59s.xml">
-      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 47m 41s.xml">
       <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 48m 42s.xml">
+      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 48m 56s.xml">
+      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_instantiates_true - 2019.05.19 at 13h 48m 57s.xml">
+      <configuration name="HeroTest.Hero_instantiates_true" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_heroId_retrievesTheId - 2019.05.19 at 14h 02m 44s.xml">
+      <configuration name="HeroTest.Hero_heroId_retrievesTheId" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_heroId_retrievesTheId - 2019.05.19 at 14h 03m 15s.xml">
+      <configuration name="HeroTest.Hero_heroId_retrievesTheId" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest - 2019.05.19 at 14h 04m 20s.xml">
+      <configuration name="HeroTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_clear_0 - 2019.05.19 at 14h 12m 05s.xml">
+      <configuration name="HeroTest.Hero_clear_0" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest_Hero_clear_0 - 2019.05.19 at 14h 12m 30s.xml">
+      <configuration name="HeroTest.Hero_clear_0" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="HeroTest - 2019.05.19 at 14h 20m 40s.xml">
+      <configuration name="HeroTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -326,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="365">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#255#261#0" expanded="true" />
@@ -343,14 +425,16 @@
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HeroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="780">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
