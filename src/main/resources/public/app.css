@@ -24,5 +24,6 @@ a:hover {
 }
 
 .kichwa {
-  background-image:
+  background-image: url(/HeroesLogo.jpg);
+  background-size: 100%;
 }
