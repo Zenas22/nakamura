@@ -7,9 +7,13 @@ body{
   background: #ED4264;
 }
 
-h1,h2,h3,h4 {
+h2,h3,h4 {
   font-family: 'Abel', sans-serif;
-  color: #F1F1F1;
+  color: #1B1725;
+}
+
+h1 {
+    color: #F1F1F1;
 }
 
 a{
