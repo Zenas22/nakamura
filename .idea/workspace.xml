@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="692182d5-c97a-4b96-982d-93d4f1833f29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="692182d5-c97a-4b96-982d-93d4f1833f29" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -174,10 +172,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
-    <option name="y" value="27" />
+    <option name="x" value="577" />
+    <option name="y" value="45" />
     <option name="width" value="722" />
-    <option name="height" value="741" />
+    <option name="height" value="526" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -421,7 +419,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="27" width="722" height="741" extended-state="0" />
+    <frame x="577" y="45" width="722" height="526" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19378698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +438,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.33006537" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33006537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5088161" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="12" />
