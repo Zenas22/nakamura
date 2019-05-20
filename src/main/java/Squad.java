@@ -7,6 +7,11 @@ public class Squad {
     private String mCause;
     private static List<Squad> squads = new ArrayList<>();
     private int mId;
+    private List<Hero> mHeroes;
+
+    public List<Hero> getmHeroes() {
+        return mHeroes;
+    }
 
     public String getmSquadName() {
         return mSquadName;
@@ -42,6 +47,7 @@ public class Squad {
         mCause = cause;
         squads.add(this);
         mId = squads.size();
+        mHeroes = new ArrayList<Hero>();
     }
 
 }

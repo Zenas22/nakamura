@@ -58,4 +58,11 @@ public class SquadTest {
         Squad twoSquad = new Squad("Suicide Squad", 3, "Badass");
         assertEquals(twoSquad, Squad.find(twoSquad.getmId()));
     }
+
+    @Test
+    public void getHeroes_returnsEmptyList_ArrayList() {
+        Squad.clear();
+        Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
+        assertEquals(0, testSquad.getmHeroes().size());
+    }
 }
