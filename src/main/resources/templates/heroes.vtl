@@ -1,4 +1,21 @@
 <div class="jumbotron">
-   <h2>You need to create a squad first</h2>
+    <h2>Heroes</h2>
+    <p>Make your hero but remember that they cant be perfect so you have to give them a weakness eg old age. Dont worry Heros live forever hahaha or do they? </p>
+
+   <h4>You need to create a squad first</h4>
+   <br>
    <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
+   <br>
+
+   #if ($squads)
+        #foreach ($squad in $squads)
+           <p>Squads:</p>
+           <p>$squad.getmSquadName()</p>
+
+           <button><a href="/squads/$squad.getmId()">View Squad</a></button>
+        #end
+   #else
+        <p></p>
+   #end
+
 </div>

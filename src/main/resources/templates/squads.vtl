@@ -1,4 +1,10 @@
 <div class="jumbotron">
+    <h3>Squads</h3>
+    <br>
+    <p>Ever wondered how it feels like to be part of a crew of bad-ass individuals that fight for a worthy cause?<br>
+    Your time is finally here. Form your very own Squad to fight for a cause you choose. You can set the number of superheroes you want to join too.<br>
+    Whats better than that? Start by clicking on "Add a Squad" or if there is an existing Squad listed below you can view it to see if you can join.</p>
+
     #if ($squads)
         #foreach ($squad in $squads)
             <p>Squads:</p>
@@ -7,7 +13,7 @@
                 <button><a href="/squads/$squad.getmId()">View Squad</a></button>
          #end
 
-    #else
+    #else if ($squads == null)
         <p>There are currently no Squads!</p>
     #end
        <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
