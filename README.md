@@ -8,14 +8,14 @@ This project allows users to create squads and input heroes in different squads 
 
 ### Setup
 1. Clone the github repo to see the source files [Nakamura](https://github.com/Zenas22/nakamura).
-2. Open the link in the description to use the app as deployed on [Heroku]().
+2. Open the link in the description to use the app as deployed on [Heroku](https://naka-mura.herokuapp.com/).
 
 ### Technologies Used
 1. Java
 2. Spark
 3. IntelliJ
 4. Gradle
-5. Postgresql
+
 
 
 ### Support or questions
