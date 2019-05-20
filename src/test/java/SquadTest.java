@@ -65,4 +65,13 @@ public class SquadTest {
         Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
         assertEquals(0, testSquad.getmHeroes().size());
     }
+
+    @Test
+    public void addHero_addsHeroToList_true() {
+        Squad.clear();
+        Squad Olympus = new Squad("Olympus", 5, "Fight the titans");
+        Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
+        Olympus.addHero(testHero);
+        assertTrue(Olympus.getmHeroes().contains(testHero));
+    }
 }

@@ -41,6 +41,10 @@ public class Squad {
         return squads.get(id-1);
     }
 
+    public void addHero(Hero hero) {
+        mHeroes.add(hero);
+    }
+
     public Squad(String squadName, int size, String cause){
         mSquadName = squadName;
         mSize = size;
