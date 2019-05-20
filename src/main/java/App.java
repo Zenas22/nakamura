@@ -1,8 +1,6 @@
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-import org.apache.velocity.app.Velocity;
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 import static spark.Spark.*;
