@@ -1,15 +1,14 @@
 <div class="jumbotron">
     #if ($squads)
-        <p>Squads:</p>
-
-            #foreach ($squad in $squads)
+        #foreach ($squad in $squads)
+            <p>Squads:</p>
                 <p>$squad.getmSquadName()</p>
-                <button><a href="/squads/$squad.getmId()">View Squad</a></button>
 
-            #end
+                <button><a href="/squads/$squad.getmId()">View Squad</a></button>
+         #end
 
     #else
-        <p>No Squads!</p>
+        <p>There are currently no Squads!</p>
     #end
        <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
 </div>
