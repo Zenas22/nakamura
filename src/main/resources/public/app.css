@@ -9,6 +9,7 @@ body{
 
 h1,h2,h3,h4 {
   font-family: 'Abel', sans-serif;
+  color: #F1F1F1;
 }
 
 a{
@@ -17,6 +18,8 @@ a{
 
 a:hover {
   text-decoration: none;
+  text-transform: none;
+  text-decoration-style: none;
 }
 
 .jumbotron{
@@ -25,5 +28,6 @@ a:hover {
 
 .kichwa {
   background-image: url(/HeroesLogo.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
