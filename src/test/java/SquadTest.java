@@ -5,6 +5,11 @@ import static org.junit.Assert.*;
 
 public class SquadTest {
 
+    @After
+    public void tearDown() {
+        Squad.clear();
+    }
+
     @Test
     public void Squad_instantiates_true() {
         Squad testSquad = new Squad("Olympus", 5, "Fight the titans");
@@ -73,5 +78,10 @@ public class SquadTest {
         Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
         Olympus.addHero(testHero);
         assertTrue(Olympus.getmHeroes().contains(testHero));
+    }
+
+    @Test
+    public void find_returnsNullWhenNoHeroFound_null() {
+        assertTrue(Squad.find(999) == null);
     }
 }

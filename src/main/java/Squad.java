@@ -38,7 +38,11 @@ public class Squad {
     }
 
     public static Squad find(int id){
-        return squads.get(id-1);
+      try {
+          return squads.get(id-1);
+      }  catch (IndexOutOfBoundsException exception) {
+          return null;
+      }
     }
 
     public void addHero(Hero hero) {

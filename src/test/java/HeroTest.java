@@ -4,6 +4,11 @@ import static org.junit.Assert.*;
 
 public class HeroTest {
 
+    @After
+    public void tearDown() {
+        Hero.clear();
+    }
+
     @Test
     public void Hero_instantiates_true() {
         Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
@@ -58,4 +63,5 @@ public class HeroTest {
         assertEquals(true, Hero.getHeroes().contains(twoHero));
         assertEquals(true, Hero.getHeroes().contains(threeHero));
     }
+
 }
