@@ -65,5 +65,18 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+        get("/squads", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+
+            String squadName = request.queryParams("squadName");
+            int size = Integer.parseInt(request.queryParams("size"));
+            String cause = request.queryParams("cause");
+
+            Squad newSquad = new Squad(squadName,size,cause);
+            model.put("template", "templates/success-squad.vtl");
+
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
     }
 }
