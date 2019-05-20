@@ -81,6 +81,21 @@ public class SquadTest {
     }
 
     @Test
+    public void addHero_IfListIsFull_nothing() {
+        Squad.clear();
+        Squad Olympus = new Squad("Olympus", 2, "Fight the titans");
+        Hero testHero = new Hero("Zeus", 24, "God of Lightning", "Cheats on Hera a lot");
+        Olympus.addHero(testHero);
+        Hero twoHero = new Hero("Hades", 29, "God of the underworld", "Zeus");
+        Olympus.addHero(twoHero);
+        Hero threeHero = new Hero("Poseidon", 25, "God of the Sea", "water");
+        Olympus.addHero(threeHero);
+        assertEquals(true, Olympus.getmHeroes().contains(testHero));
+        assertEquals(true, Olympus.getmHeroes().contains(twoHero));
+        assertEquals(false, Olympus.getmHeroes().contains(threeHero));
+    }
+
+    @Test
     public void find_returnsNullWhenNoHeroFound_null() {
         assertTrue(Squad.find(999) == null);
     }

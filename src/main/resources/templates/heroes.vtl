@@ -1,12 +1,4 @@
 <div class="jumbotron">
-    #if ($heroes)
-    <p>Heroes:</p>
-       #foreach ($hero in $heroes)
-         <p>$hero.getmJina()</p>
-
-       #end
-    #else
-        <p>No Heroes!</p>
-    #end
-       <button class="btn btn-dark"><a href="/hero-form">Add a Hero</a></button>
+   <h2>You need to create a squad first</h2>
+   <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
 </div>

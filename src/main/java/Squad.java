@@ -9,6 +9,8 @@ public class Squad {
     private int mId;
     private List<Hero> mHeroes;
 
+
+
     public List<Hero> getmHeroes() {
         return mHeroes;
     }
@@ -46,7 +48,11 @@ public class Squad {
     }
 
     public void addHero(Hero hero) {
-        mHeroes.add(hero);
+        if (mHeroes.size() < mSize){
+            mHeroes.add(hero);
+        } else {
+            // do nothing
+        }
     }
 
     public Squad(String squadName, int size, String cause){
